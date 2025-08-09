@@ -13,5 +13,5 @@ app.use(verifyOtp);   // POST /verify-otp
 const PORT = process.env.PORT || 3333;
 app.listen(PORT, () => {
   // console.log(`🚀 Server berjalan di http://10.0.2.2:${PORT}`);
-  console.log(`🚀 Server berjalan di http://localhost:${PORT}`);
+  console.log(`🚀 Server berjalan di https://autentikasiwa2-production.up.railway.app:${PORT}`);
 });
