@@ -18,9 +18,9 @@
 
     // Ambil data user berdasarkan nomor
     const { data: dataNomor, error: dataNomorError } = await supabase
-      .from('user')
-      .select('nomor')
-      .eq('nomor', phone)
+      .from('users')
+      .select('phone_number')
+      .eq('phone_number', phone)
       .maybeSingle();
 
 
